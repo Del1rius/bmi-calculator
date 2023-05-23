@@ -24,3 +24,7 @@ bmiCalc = (weight / Math.pow(height/100, 2)).toFixed(1)
     }
 
 };
+
+function reset() {
+  window.location.reload();
+}
