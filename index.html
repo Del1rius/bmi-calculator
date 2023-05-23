@@ -10,10 +10,28 @@
 <body>
     <div class="container">
         <h2>BMI Calculator</h2>
-        <div>Male</div>
-        <div>Female</div>
-        <div><input type="text">Weight</div>
-        <div><input type="text">Height</div>
+        <div>
+            <p>Weight(KG)</p>
+        </div>
+        <div>
+            <input type="text" id="weight">
+        </div>
+        <div>
+            <p>Height(CM)</p>
+        </div>
+        <div>
+            <input type="text" id="height">
+        </div>
+        <div>
+            <p>BMI</p>  
+        </div>
+        <div>
+            <input type="text" id="bmi" readonly>
+        </div>
+        <div>
+            <button type="button" onclick="calculateBMI()">Calculate</button>
+        </div>
+        
 
     </div>
     <script src="script.js"></script>
